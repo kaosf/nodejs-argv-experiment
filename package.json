@@ -9,7 +9,8 @@
     "coffee-script": "1.6.2"
   },
   "scripts": {
-    "postinstall": "node_modules/coffee-script/bin/coffee -c *.coffee"
+    "postinstall": "node_modules/coffee-script/bin/coffee -c *.coffee",
+    "test": "./a.sh"
   },
   "repository": {
     "type": "git",
