@@ -1,0 +1,20 @@
+{
+  "name": "argv-exp",
+  "version": "0.0.0",
+  "description": "Node.js argv package Experiment",
+  "dependencies": {
+    "argv": "0.0.2"
+  },
+  "devDependencies": {
+    "coffee-script": "1.6.2"
+  },
+  "scripts": {
+    "postinstall": "node_modules/coffee-script/bin/coffee -c *.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaosf/nodejs-argv-experiment"
+  },
+  "author": "ka",
+  "license": "MIT"
+}
