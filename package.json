@@ -10,7 +10,7 @@
   },
   "scripts": {
     "postinstall": "node_modules/coffee-script/bin/coffee -c *.coffee",
-    "test": "./a.sh"
+    "test": "./a.sh; ./b.sh"
   },
   "repository": {
     "type": "git",
